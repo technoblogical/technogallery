@@ -1,0 +1,22 @@
+.hidden, .technogallery{
+	display:none;
+}
+.technogalleryBigBox{
+	width:400px;
+	height:400px;
+	float:right;
+	padding:0px;
+	margin:0px;
+	background-size: 100%;
+	background-repeat:no-repeat;
+}
+.technogalleryLittleBox{
+	width:75px;
+	height:75px;
+	padding:0px;
+	margin:1px;
+	float:left;
+	background-size: 200%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
