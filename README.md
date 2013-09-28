@@ -1,5 +1,4 @@
 # technogallery
-=============
 _This is a little javascript/jQuery gallery that I built._<br/>
 by <a href='https://plus.google.com/104536213394512642005?rel=author'>Chris Walker</a><br/>
 (http://www.youtube.com/watch?v=Th6mGAwvQYU)<br/>
