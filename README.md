@@ -1,8 +1,8 @@
 # technogallery
 =============
-_This is a little javascript/jQuery gallery that I built._
-by <a href='https://plus.google.com/104536213394512642005?rel=author'>Chris Walker</a>
-(http://www.youtube.com/watch?v=Th6mGAwvQYU)
+_This is a little javascript/jQuery gallery that I built._<br/>
+by <a href='https://plus.google.com/104536213394512642005?rel=author'>Chris Walker</a><br/>
+(http://www.youtube.com/watch?v=Th6mGAwvQYU)<br/>
 
 This is a <a href='http://www.youtube.com/watch?v=Th6mGAwvQYU' target='_blank'>jQuery gallery</a> I built for a client to display images on his webpage. It takes an unordered list alternating between listings of image locations and image descriptions. It requires a class of "technogallery" be applied to the UL HTML tag. The jQuery in the plugin will then find it and read the list items and build a bunch of little boxes for the individual images. It also builds one large box to show the first image. As the small boxes are clicked, the images comntained within them display in the large box. The image descriptions appear as alt and title text on the small boxes.
 
@@ -47,5 +47,5 @@ THE SOFTWARE.
 
 ###### Miscellaneous Stuff
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=Th6mGAwvQYU" target="_blank"><img src="http://img.youtube.com/vi/Th6mGAwvQYU/0.jpg" 
-alt="Here's the video where I built this!" width="240" height="180" border="10" /></a>
+alt="Here's the video where I built this!" width="240" height="180" border="10" /></a><br/>
 The video is where I built this thing. If you've enjoyed this or used it, I'd enjoy a boost from some kind of social media. I'd prefer Google+, but I'll take a tweet if that's what you've got. (Brother, can you spare a Like?)
