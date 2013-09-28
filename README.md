@@ -1,14 +1,51 @@
 # technogallery
 =============
+_This is a little javascript/jQuery gallery that I built._
+by <a href='https://plus.google.com/104536213394512642005?rel=author'>Chris Walker</a>
+(http://www.youtube.com/watch?v=Th6mGAwvQYU)
 
-## _This is a little javascript/jQuery gallery that I built._
+This is a <a href='http://www.youtube.com/watch?v=Th6mGAwvQYU' target='_blank'>jQuery gallery</a> I built for a client to display images on his webpage. It takes an unordered list alternating between listings of image locations and image descriptions. It requires a class of "technogallery" be applied to the UL HTML tag. The jQuery in the plugin will then find it and read the list items and build a bunch of little boxes for the individual images. It also builds one large box to show the first image. As the small boxes are clicked, the images comntained within them display in the large box. The image descriptions appear as alt and title text on the small boxes.
 
-If you wish to download the plugin, just download the sub folder called "technogallery." It will contain two files that you need called "technogallery.js" and "technogalleryStyle.css." Then you need to build an unordered list. Each list item should have text only! the first (or zeroth item in zero-based counting) should have the URL of the image. The second list item should have a description of the photo for SEO and UI purposes. Then just repeat the pattern alternating between image URL and image description. Continue as needed.
+##How does this thing work?
+The directions to use this plugin are pretty straight forward. This isn't a polished product. I'll admit it isn't great, but it works and that's all that matters.
 
-The HTML UL tag needs to have the class of "technogallery" and the script should be called sometime before the closing of the body tag, but after the gallery itself. (**Do not link from the header!** The list does not exist at that point and the plugin will just ignore everything that comes after it is called. Besides, saving your JavaScript for the end makes for a faster load time, anyway.)
+1. Create a directory called technogallery.
+2. Place technogallery.js and technogalleryStyle.css in that directory.
+3. Link to it from the footer. (It won't work if you put it in the header because the HTML elements aren't built when referenced there.)
+4. Create an unordered list on the page with the class of 'technogallery' (Though this will likely work with any nested HTML elelments.)
+5. Create the list items by alternating between image location and image description like the following. The image locations and descriptions don't matter.
+..* http://www.xxxxxx.com/images/01.jpg
+..* This is a image of a dog.
+..* http://www.xxxxxx.com/images/012.jpg
+..* This is a image of a cat.
+..* http://www.xxxxxx.com/images/03.jpg
+..* This is a image of a fish.
+..* http://www.xxxxxx.com/images/04.jpg
+..* This is a image of a bird.
+This even works when there are more than one gallery on each page.
 
-You'll probably want to modify technogalleryStyle.css to fit your needs. Hopefully, you are good enough to figure out what is going on. I made this plugin for educational purposes. (There's a video of this somewhere on http://www.youtube.com/technoblogical if you really want to know how this stuff works.) This plugin comes with no support or warranty either explicit or implied. You break it, you buy it. Your mileage may vary. Offer may be void in your local area. If you suffer watery eyes, runny nose, or ringing ears, please discontinue use immediately and consult your physician.
+##License
+Copyright (c) 2013 Chris Walker
 
-This javascript gallery will load all your photos as little boxes on the left and one large box on the right. The little boxes will wrap around the large box if there are enough photos listed. When the page loads, the big box will show the first image. This prevents right clicking on the page, but even if it didn't, you couldn't right click on the images to download them. They only exist in CSS, not HTML. This is also written to allow several galleries on one page. If you've found any part of this experience helpful, I'd appreciate it if you would find me on social media and give me a like/+1/thumbs up. (Or you want to be really generous, you can post this to your blog, I guess.)
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-Anyway, thanks for reading this far/watching the video.
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+###### Miscellaneous Stuff
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=Th6mGAwvQYU" target="_blank"><img src="http://img.youtube.com/vi/Th6mGAwvQYU/0.jpg" 
+alt="Here's the video where I built this!" width="240" height="180" border="10" /></a>
+The video is where I built this thing. If you've enjoyed this or used it, I'd enjoy a boost from some kind of social media. I'd prefer Google+, but I'll take a tweet if that's what you've got. (Brother, can you spare a Like?)
